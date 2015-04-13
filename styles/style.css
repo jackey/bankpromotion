@@ -381,8 +381,9 @@ body.m .s-prom {
 }
 
 .block-apple {
-    width: 946px;
+    width: 944px;
     margin: 0 auto;
+    padding-top: 15px;
 }
 
 .block-tags .bc li {
@@ -568,6 +569,7 @@ li.pd-item span.h3 {
 
 .s-prom .bc-wp {
     padding: 1em;
+    padding-top: 5px;
 }
 
 .s-prom .bc-wp-border {
@@ -629,6 +631,18 @@ body.index-page .s-kv .btn-group {
 
 body.index-page .s-kv > .w > img {
     margin-top: 0px;
+}
+
+body.index-page .block-brand-tpl .bt {
+    padding: 0px 1em;
+}
+
+.block-tags .bc ul.tags-2 {
+    border-bottom: none;
+}
+
+.block-tags .bc ul.tags-2 > li {
+    border-bottom: 1px solid #e5e5e5;
 }
 
 
