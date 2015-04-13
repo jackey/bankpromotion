@@ -396,10 +396,10 @@ body.m .s-prom {
 }
 
 .index-page .block-brand-tpl .f-prom-icon {
-    right: 0px;
-    top: -55px;
     width: 129px;
     z-index: 111;
+    right: 0px;
+    top: 0px;
 }
 
 .index-page .block-brand-tpl .f-prom .r {
@@ -435,9 +435,10 @@ body.m .s-prom {
     text-align: center;
 }
 
-.index-page .block-brand-tpl .f-prom .r > .p-items li img {
+.index-page .block-brand-tpl .f-prom .r > .p-items li >img {
     display: inline;
     width: auto;
+    margin-top: 18px;
 }
 
 .index-page .block-brand-tpl span.h3 {
@@ -445,7 +446,9 @@ body.m .s-prom {
 }
 
 .index-page .block-brand-tpl span.h2 {
-    font-size: 14px;
+
+    font-size: 19px;
+    font-weight: bold;
 }
 
 .index-page .block-brand-tpl span.h4 {
@@ -459,6 +462,7 @@ body.m .s-prom {
 
 .index-page .block-brand-tpl .l  .btn {
     float: right;
+    margin-top: 8px;
 }
 
 .index-page .block-brand-tpl .f-prom .l img {
@@ -471,8 +475,9 @@ body.m .s-prom {
 }
 
 .index-page .block-brand-tpl .f-prom .r .p-items .btn-buy  {
-    width: 50%;
+    width: 124px;
     margin: 0 auto;
+    margin-top: 8px;
 }
 
 .index-page .block-brand-tpl .f-prom .r .p-items .btn-buy img {
@@ -496,4 +501,64 @@ body.m .s-prom {
     float: left;
 }
 
-.index-page .block-brand-tpl .r .p-items  span.h3.old
+.index-page .block-brand-tpl .r .p-items  span.h3.old-p {
+    margin-top: 9px;
+    margin-left: 16px;
+}
+
+li.pd-item {
+    text-align: center;
+}
+
+li.pd-item >img {
+    display: inline;
+    width: auto;
+    margin-top: 18px;
+}
+
+li.pd-item .info{
+    text-align: left;
+    padding: 0px 1em;
+}
+
+li.pd-item .btn-buy {
+    width: 124px;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+
+li.pd-item .btn-buy img {
+    width: 100%;
+    display: block;
+}
+
+li.pd-item span.h3.old-p {
+    margin-top: 9px;
+    margin-left: 16px;
+}
+
+li.pd-item span.h2 {
+    float: left;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+li.pd-item span.h3 {
+    float: left;
+}
+
+.index-page .block-brand-tpl li.pd-item span.h2 {
+    float: left;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
