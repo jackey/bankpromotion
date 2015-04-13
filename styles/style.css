@@ -645,6 +645,60 @@ body.index-page .block-brand-tpl .bt {
     border-bottom: 1px solid #e5e5e5;
 }
 
+.block-sanxing  .products-items .pd-item {
+    width: 50% !important;
+}
+
+.abs-pd-item .left{
+    float: left;
+    height: 100%;
+    text-align: center;
+    width: 40%;
+}
+
+.abs-pd-item .right {
+    float: left;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+}
+
+.abs-pd-item .table {
+    width:100%;
+}
+
+
+.abs-pd-item .table-cell {
+    vertical-align: middle;
+}
+
+li.pd-item.abs-pd-item .btn-buy  {
+    position: static;
+    margin-left: 1em !important;
+}
+
+.block-sanxing .p-items  ul > li.abs-pd-item {
+    width: 100%;
+}
+
+.index-page .block-other-ps.block-brand-tpl .f-prom .l img {
+    margin-top: 168px;
+}
+
+.index-page .block-other-ps.block-brand-tpl .l .btn {
+   
+}
+
+.index-page .block-other-ps.block-brand-tpl .f-prom-icon {
+    top: -175px;
+}
+
+
+
+
+
+
+
 
 
 
