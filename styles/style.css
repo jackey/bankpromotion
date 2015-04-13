@@ -398,8 +398,8 @@ body.m .s-prom {
 .index-page .block-brand-tpl .f-prom-icon {
     width: 129px;
     z-index: 111;
-    right: 0px;
-    top: 0px;
+    right: -8px;
+    top: -7px;
 }
 
 .index-page .block-brand-tpl .f-prom .r {
@@ -438,7 +438,6 @@ body.m .s-prom {
 .index-page .block-brand-tpl .f-prom .r > .p-items li >img {
     display: inline;
     width: auto;
-    margin-top: 18px;
 }
 
 .index-page .block-brand-tpl span.h3 {
@@ -508,12 +507,21 @@ body.m .s-prom {
 
 li.pd-item {
     text-align: center;
+    border-left: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 1em 0px;
+    position: relative;
+    height: 325px;
+
 }
 
 li.pd-item >img {
     display: inline;
     width: auto;
     margin-top: 18px;
+    height: 160px;
+    margin-top: 0px;
 }
 
 li.pd-item .info{
@@ -525,6 +533,10 @@ li.pd-item .btn-buy {
     width: 124px;
     margin: 0 auto;
     margin-top: 8px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -62px !important;
 }
 
 
@@ -553,6 +565,57 @@ li.pd-item span.h3 {
     font-size: 19px;
     font-weight: bold;
 }
+
+.s-prom .bc-wp {
+    padding: 1em;
+}
+
+.s-prom .bc-wp-border {
+    border: 1px solid #e5e5e5;
+}
+
+.s-brands {
+    width: 976px;
+    margin: 0 auto;
+    background: transparent;
+    margin-top: 10px;
+}
+
+.s-brands .bc {
+    margin-top: -17px;
+    width: 957px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.s-cmr {
+    width: 976px;
+    margin: 0 auto;
+    background: transparent;
+    margin-top: 10px;
+}
+
+.s-cmr .bc {
+    margin-top: -17px;
+    width: 957px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.s-brands .storm {
+    margin-top: 10px;
+}
+
+.s-brands .bottom{
+    margin-top: 10px;
+}
+
+.s-brands .contain {
+    margin-top: -39px;
+}
+
+
 
 
 
