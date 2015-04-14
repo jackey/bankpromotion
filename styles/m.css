@@ -320,3 +320,14 @@ body.m .block-brand-tpl .f-prom-btn img{
 body.m .block-brand-tpl .btn-buy img {
     width: 81%;
 }
+
+body.m .s-top iframe{
+    width: 100%;
+    height: 44px;
+
+}
+
+body.m .m-bottom iframe{
+    width: 100%;
+    height: 67px;
+}
