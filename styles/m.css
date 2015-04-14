@@ -316,3 +316,7 @@ body.m .block-brand-tpl .btn-buy img{
 body.m .block-brand-tpl .f-prom-btn img{
     width: 100%;
 }
+
+body.m .block-brand-tpl .btn-buy img {
+    width: 81%;
+}

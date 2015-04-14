@@ -695,8 +695,13 @@ li.pd-item.abs-pd-item .btn-buy  {
 }
 
 
+.index-page .block-brand-tpl .l .info > .txt{
+    width: 50%;
+}
 
-
+body.m .block-brand-tpl .f-prom-items li > img {
+    width: 50%;
+}
 
 
 
