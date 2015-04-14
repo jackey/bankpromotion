@@ -1,5 +1,23 @@
 @charset "utf-8";
 
+@media screen and (max-width: 320px) {
+    body {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    body{
+        font-size: 10px;
+    }
+}
+
 body.m .s-top h3 {
     color: #fff;
     font-size: 1.5em;
@@ -235,6 +253,7 @@ body.m  .block-apple {
 
 .block-brand-tpl  .f-prom-items li > img {
     display: inline;
+    width: 100%;
 }
 
 .block-brand-tpl  .desc-txt {
@@ -280,4 +299,20 @@ body.m .border-wp {
 body.m .block-brand-tpl .f-prom-items {
     padding-left: 0px;
     padding-right: 0px;
+}
+
+body.m .block-tags .bc li {
+    padding: 2em 0px;
+}
+
+body.m .block-tags .bc li img {
+    width: 100%;
+}
+
+body.m .block-brand-tpl .btn-buy img{
+    width: 100%;
+}
+
+body.m .block-brand-tpl .f-prom-btn img{
+    width: 100%;
 }
