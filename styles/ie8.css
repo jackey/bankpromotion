@@ -1,0 +1,10 @@
+html, body {
+    background-image: url(../misc/edm-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.body-bg {
+    display: none;
+}
