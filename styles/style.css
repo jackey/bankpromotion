@@ -337,6 +337,7 @@ body.m .s-prom {
 
 .block-brand-tpl  .bc {
     position: relative;
+
 }
 
 .block-brand-tpl  .f-prom-icon{
@@ -599,10 +600,11 @@ li.pd-item span.h3 {
 }
 
 .s-cmr .bc {
-    margin-top: -17px;
     width: 957px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -16px;
+
 }
 
 .s-brands .storm {
@@ -720,11 +722,23 @@ body.m .block-brand-tpl .f-prom-items li > img {
     width: 100%;
     background: #fff;
 }
-
+.s-brands .bc table td {
+    vertical-align: middle;
+    text-align: center;
+}
 
 .s-cmr table {
     width: 100%;
     background: #fff;
+}
+
+.s-cmr table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.abs-pd-item .left img{
+    max-width: 201px;
 }
 
 

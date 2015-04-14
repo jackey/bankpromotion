@@ -107,6 +107,7 @@ body.m .s-brands {
 
 body.m .s-brands .bc {
     width:100%;
+    margin-top: -5px;
 }
 
 body.m  .block-apple {
@@ -249,6 +250,10 @@ body.m  .block-apple {
     border-left: 1px solid #e5e5e5;
     padding-top: 1em;
     padding-bottom: 1em;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+    height: 310px;
 }
 
 .block-brand-tpl  .f-prom-items li > img {
@@ -260,6 +265,8 @@ body.m  .block-apple {
     text-align: left;
     margin-left: 2em;
     width: 80%;
+    position: absolute;
+    bottom: 0px;
 }
 
 .block-brand-tpl  .f-prom-items li.last {
@@ -333,5 +340,17 @@ body.m .m-bottom iframe{
 }
 
 body.m .block-brand-tpl .f-prom-items li a > img {
-    width: 50%;
+    height: 147px;
+    max-width: 100%;
 }
+
+body.m .s-brands td img {
+    width: 70px;
+}
+
+body.m .block-brand-tpl .f-prom-items li .desc-txt a > img {
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+
