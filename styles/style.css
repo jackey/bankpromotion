@@ -716,9 +716,15 @@ body.m .block-brand-tpl .f-prom-items li > img {
     background: #fff;
 }
 
+.s-brands .bc table{
+    width: 100%;
+    background: #fff;
+}
 
 
-
-
+.s-cmr table {
+    width: 100%;
+    background: #fff;
+}
 
 
