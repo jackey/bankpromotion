@@ -79,6 +79,20 @@ body.m .s-kv > .w > img {
 
 body.m .s-prom {
     background: transparent;
+    width: 100%;
+}
+
+body.m .s-brands {
+    background: transparent;
+    width: 100%;
+}
+
+body.m .s-brands .bc {
+    width:100%;
+}
+
+body.m  .block-apple {
+    width: 100%;
 }
 
 .prom-items .item2 {
@@ -257,4 +271,13 @@ body.m .s-prom {
 
 .m-bottom {
     margin-top: 1.5em;
+}
+
+body.m .border-wp {
+    padding: 0px 5px
+}
+
+body.m .block-brand-tpl .f-prom-items {
+    padding-left: 0px;
+    padding-right: 0px;
 }
