@@ -2,10 +2,10 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>交通银行 - 红遍中国</title>
-    <link rel="stylesheet" href="styles/reset.css"/>
-    <link rel="stylesheet" href="styles/style.css"/>
-    <!--[if IE 8]><link rel="stylesheet" type="text/css" href="styles/ie8.css" /><![endif]-->
+    <title>2015积分乐园超红盛典</title>
+    <link rel="stylesheet" href="statics/styles/reset.css"/>
+    <link rel="stylesheet" href="statics/styles/style.css"/>
+    <!--[if IE 8]><link rel="stylesheet" type="text/css" href="statics/styles/ie8.css" /><![endif]-->
     <script>
         var _hmt = _hmt || [];
         (function() {
@@ -15,20 +15,42 @@
             s.parentNode.insertBefore(hm, s);
         })();
     </script>
+    <script src="statics/scripts/jquery.js"></script>
+    <script>
+        $(function () {
+            $('a[data-a="popupUser"]').click(function (event) {
+                event.preventDefault();
+                event.stopPropagation();
+                $('.user-popup').css('display', 'block').stop(true, true).animate({
+                    opacity: 1
+                });
+                return false;
+            });
+
+            $('.user-popup').click(function (event) {
+                $('.user-popup').css('display', 'none').stop(true, true).animate({
+                    opacity: 0
+                });
+            });
+        });
+    </script>
 </head>
 <body class="mobile-index-page m index-page">
+    <div class="user-popup">
+        <img src="misc/popup-user.jpg" alt=""/>
+    </div>
     <div class="body-bg"></div>
     <div class="s s-nav">
         <div class="w">
-            <iframe frameborder="0px" src="header/pc/header.html"></iframe>
+            <iframe frameborder="0px" src="statics/header/pc/header.html"></iframe>
         </div>
     </div>
     <div class="s s-kv ">
         <div class="w">
             <a href="http://club.bankcomm.com/customer/rushactivityqueue/rushAcivityPage.html?activityUrl=rushActivity_10000007"><img src="misc/h-kv.png" class="fc" alt=""/></a>
             <div class="btn-group">
-                <div class="btn btn-adetail"><a href="http://club.bankcomm.com/customer/index.htm"><img class="fc" src="misc/meeting-btn1.png" alt=""/></a></div>
-                <div class="btn btn-ucheck"><a href="http://club.bankcomm.com/customer/index.htm"><img class="fc" src="misc/meeting-btn2.png" alt=""/></a></div>
+                <div class="btn btn-adetail"><a href="http://creditcard.bankcomm.com/content/pccc-biz/discount/data/12_1428921976209.show.html"><img class="fc" src="misc/meeting-btn1.png" alt=""/></a></div>
+                <div class="btn btn-ucheck"><a data-a="popupUser" href="javascript:;"><img class="fc" src="misc/meeting-btn2.png" alt=""/></a></div>
             </div>
         </div>
     </div>
@@ -38,7 +60,7 @@
 
             <div class="block block-tags">
                 <div class="bt">
-                    <img src="misc/h-hbeader.png" class="fc" alt=""/>
+                    <a href="submeeting.html"> <img src="misc/h-hbeader.png" class="fc" alt=""/>></a>
                 </div>
                 <div class="bc">
                     <div class="wp wp-1">
@@ -57,7 +79,7 @@
                     </div>
                 </div>
             </div>
-            <!--  苹果 -->
+            <!--  pingguo -->
             <div class="block block-apple block-brand-tpl">
                 <div class="bt">
                     <img class="fc" src="misc/h-apple-header.png" alt=""/>
@@ -68,7 +90,7 @@
 
                             <div class="f-prom clearfix">
                                 <div class="l">
-                                    <img class="fc" src="misc/苹果/images/1.png" alt=""/>
+                                    <img class="fc" src="misc/pingguo/images/1.png" alt=""/>
                                     <div class="info clearfix">
                                         <div class="txt">
                                             <span class="h3">苹果 iPhone 6 16G
@@ -90,7 +112,7 @@
                                         <ul class="clearfix">
 
                                             <li class="pd-item">
-                                                <img src="misc/苹果/images/2.png" alt=""/>
+                                                <img src="misc/pingguo/images/2.png" alt=""/>
                                                 <div class="info clearfix">
                                             <span class="h3">苹果 iPhone5S
 16G 公开版 手机(赠贴膜) </span>
@@ -101,7 +123,7 @@
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
                                             </li>
                                             <li class="pd-item">
-                                                <img src="misc/苹果/images/3.png" alt=""/>
+                                                <img src="misc/pingguo/images/3.png" alt=""/>
                                                 <div class="info clearfix">
                                                     <span class="h3">苹果iPhone 6 64G版
 全网通4G手机 A1586 4.7英寸 公开版全兼容</span>
@@ -113,7 +135,7 @@
 
                                             </li>
                                             <li class="pd-item">
-                                                <img src="misc/苹果/images/4.png" alt=""/>
+                                                <img src="misc/pingguo/images/4.png" alt=""/>
                                                 <div class="info clearfix">
                                                     <span class="h3">苹果iPhone 6 128G版
 全网通4G手机 A1586 4.7英寸 公开版全兼容</span>
@@ -125,7 +147,7 @@
 
                                             </li>
                                             <li class="pd-item">
-                                                <img src="misc/苹果/images/5.png" alt=""/>
+                                                <img src="misc/pingguo/images/5.png" alt=""/>
                                                 <div class="info clearfix">
                                                     <span class="h3">苹果iPhone 6 plus 16G版 5.5英寸
 全网通4G手机 A1524</span>
@@ -145,7 +167,7 @@
                                 <ul class="clearfix">
 
                                     <li class="pd-item">
-                                        <img src="misc/苹果/images/6.png" alt=""/>
+                                        <img src="misc/pingguo/images/6.png" alt=""/>
                                         <div class="info clearfix">
                                                     <span class="h3">苹果iPhone 6 Plus 64G版
 全网通4G手t机 A1524 5.5英寸 公开版全兼容</span>
@@ -157,7 +179,7 @@
 
                                     </li>
                                     <li class="pd-item">
-                                        <img src="misc/苹果/images/7.png" alt=""/>
+                                        <img src="misc/pingguo/images/7.png" alt=""/>
                                         <div class="info clearfix">
                                             <span class="h3">苹果 iPhone5S
 16G 公开版 手机(赠贴膜)</span>
@@ -170,7 +192,7 @@
                                     </li>
                                     <li class="pd-item">
 
-                                        <img src="misc/苹果/images/8.png" alt=""/>
+                                        <img src="misc/pingguo/images/8.png" alt=""/>
                                         <div class="info clearfix">
                                             <span class="h3">苹果 iPhone5S
 16G 移动定制4G版 手机 金色</span>
@@ -182,7 +204,7 @@
 
                                     </li>
                                     <li class="pd-item">
-                                        <img src="misc/苹果/images/9.png" alt=""/>
+                                        <img src="misc/pingguo/images/9.png" alt=""/>
                                         <div class="info clearfix">
                                             <span class="h3">苹果 iPhone5S
 16G 移动定制4G版 手机 银色</span>
@@ -194,7 +216,7 @@
 
                                     </li>
                                     <li class="pd-item">
-                                        <img src="misc/苹果/images/10.png" alt=""/>
+                                        <img src="misc/pingguo/images/10.png" alt=""/>
                                         <div class="info clearfix">
                                             <span class="h3">苹果 iPhone 4S 8G手机
 黑/白(赠贴膜)</span>
@@ -206,7 +228,7 @@
 
                                     </li>
                                     <li class="pd-item">
-                                        <img src="misc/苹果/images/11.png" alt=""/>
+                                        <img src="misc/pingguo/images/11.png" alt=""/>
                                         <div class="info clearfix">
                                             <span class="h3">苹果 iPad mini3 7.9英寸 16G WIFI版
 平板电脑 金色</span>
@@ -218,7 +240,7 @@
 
                                     </li>
                                     <li class="pd-item">
-                                        <img src="misc/苹果/images/12.png" alt=""/>
+                                        <img src="misc/pingguo/images/12.png" alt=""/>
                                         <div class="info clearfix">
                                             <span class="h3">苹果 iPad mini3
 7.9英寸 64G WIFI版 平板电脑</span>
@@ -231,7 +253,7 @@
 
                                     </li>
                                     <li class="pd-item">
-                                        <img src="misc/苹果/images/13.png" alt=""/>
+                                        <img src="misc/pingguo/images/13.png" alt=""/>
                                         <div class="info clearfix">
                                             <span class="h3">苹果iPad mini (第二代)
 16G wifi版 平板电脑</span>
@@ -243,7 +265,7 @@
 
                                     </li>
                                     <li class="pd-item">
-                                        <img src="misc/苹果/images/14.png" alt=""/>
+                                        <img src="misc/pingguo/images/14.png" alt=""/>
                                         <div class="info clearfix">
                                             <span class="h3">苹果iPad mini
 16G wifi 白色+贴膜+保护壳</span>
@@ -254,7 +276,7 @@
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
                                     </li>
                                     <li class="pd-item">
-                                        <img src="misc/苹果/images/15.png" alt=""/>
+                                        <img src="misc/pingguo/images/15.png" alt=""/>
                                         <div class="info clearfix">
                                             <span class="h3">苹果 iPad Air2
 9.7英寸 16G WIFI版 平板电脑</span>
@@ -265,7 +287,7 @@
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
                                     </li>
                                     <li class="pd-item">
-                                        <img src="misc/苹果/images/16.png" alt=""/>
+                                        <img src="misc/pingguo/images/16.png" alt=""/>
                                         <div class="info clearfix">
                                             <span class="h3">新款苹果Apple iPad Air2
 64G WiFi版 MH182CH/A 9.7英寸平板电脑</span>
@@ -276,15 +298,14 @@
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
                                     </li>
                                     <li class="pd-item">
-                                        <img src="misc/苹果/images/17.png" alt=""/>
+                                        <img src="misc/pingguo/images/17.png" alt=""/>
                                         <div class="info clearfix">
                                             <span class="h3">苹果 iPad Air
 16G wifi版 (赠贴膜)</span>
                                             <span class="h2">活动价: 3160</span>
                                             <span class="h3 old-p">原价: 2788</span>
                                         </div>
-                                        <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046433
-"><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
+                                        <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046433"><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
                                     </li>
                                 </ul>
                             </div>
@@ -299,10 +320,10 @@
                 </div>
             </div>
 
-            <!--  三星 -->
+            <!--  sanxing -->
             <div class="block block-apple block-brand-tpl block-sanxing">
             <div class="bt">
-                <img class="fc" src="misc/banner/三星banner.jpg" alt=""/>
+                <img class="fc" src="misc/banner/sanxing_banner.png" alt=""/>
             </div>
             <div class="bc">
                 <div class="bc-wp">
@@ -310,7 +331,7 @@
 
                         <div class="f-prom clearfix">
                             <div class="l">
-                                <img class="fc" src="misc/三星/images/1.png" alt=""/>
+                                <img class="fc" src="misc/sanxing/images/1.png" alt=""/>
                                 <div class="info clearfix">
                                     <div class="txt">
                                         <span class="h3">三星 Galaxy S6 edge G9250
@@ -318,7 +339,7 @@
                                         <span class="h2">活动价: 6088</span>
                                     </div>
                                     <div class="btn">
-                                        <a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046359
+                                        <a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046359
 "><img src="misc/buy-now-btn.png" alt=""/></a>
                                     </div>
                                 </div>
@@ -334,7 +355,7 @@
                                                 <div class="table">
                                                     <div class="table-row">
                                                         <div class="table-cell">
-                                                            <img src="misc/三星/images/2.png" alt=""/>
+                                                            <img src="misc/sanxing/images/2.png" alt=""/>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -349,7 +370,7 @@ SM-N9150 4G手机</span>
                                                                 <span class="h2">活动价: 5988</span>
                                                                 <span class="h3 old-p">原价: 6588</span>
                                                             </div>
-                                                            <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046508
+                                                            <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046508
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
                                                         </div>
                                                     </div>
@@ -357,25 +378,25 @@ SM-N9150 4G手机</span>
                                             </div>
                                         </li>
                                         <li class="pd-item">
-                                            <img src="misc/三星/images/3.png" alt=""/>
+                                            <img src="misc/sanxing/images/3.png" alt=""/>
                                             <div class="info clearfix">
                                                 <span class="h3">三星 Galaxy Note4 N9100 公开版 4G 手机</span>
                                                 <span class="h2">活动价: 4650</span>
                                                 <span class="h3 old-p">原价: 5099</span>
                                             </div>
-                                            <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046516
+                                            <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046516
 ><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
 
                                         </li>
                                         <li class="pd-item">
-                                            <img src="misc/三星/images/4.png" alt=""/>
+                                            <img src="misc/sanxing/images/4.png" alt=""/>
                                             <div class="info clearfix">
                                                 <span class="h3">三星 Galaxy Note4 N9109W
 电信定制版 4G 手机 </span>
                                                 <span class="h2">活动价: 4823</span>
                                                 <span class="h3 old-p">原价: 5288</span>
                                             </div>
-                                            <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046520
+                                            <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046520
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
 
                                         </li>
@@ -391,7 +412,7 @@ SM-N9150 4G手机</span>
                                         <div class="table">
                                             <div class="table-row">
                                                 <div class="table-cell">
-                                                    <img src="misc/三星/images/5.png" alt=""/>
+                                                    <img src="misc/sanxing/images/5.png" alt=""/>
                                                 </div>
                                             </div>
                                         </div>
@@ -405,7 +426,7 @@ SM-N9150 4G手机</span>
                                                         <span class="h2">活动价: 2639</span>
                                                         <span class="h3 old-p">原价: 2980</span>
                                                     </div>
-                                                    <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046512
+                                                    <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046512
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
                                                 </div>
                                             </div>
@@ -418,7 +439,7 @@ SM-N9150 4G手机</span>
                                         <div class="table">
                                             <div class="table-row">
                                                 <div class="table-cell">
-                                                    <img src="misc/三星/images/6.png" alt=""/>
+                                                    <img src="misc/sanxing/images/6.png" alt=""/>
                                                 </div>
                                             </div>
                                         </div>
@@ -433,7 +454,7 @@ SM-N9150 4G手机</span>
                                                         <span class="h2">活动价: 2260</span>
                                                         <span class="h3 old-p">原价: 2498</span>
                                                     </div>
-                                                    <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046506
+                                                    <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046506
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
                                                 </div>
                                             </div>
@@ -456,10 +477,10 @@ SM-N9150 4G手机</span>
 
 
 
-            <!-- 华为 -->
+            <!-- huawei -->
             <div class="block block-apple block-brand-tpl">
                 <div class="bt">
-                    <img class="fc" src="misc/banner/华为banner.jpg" alt=""/>
+                    <img class="fc" src="misc/banner/huawei_banner.png" alt=""/>
                 </div>
                 <div class="bc">
                     <div class="bc-wp">
@@ -467,7 +488,7 @@ SM-N9150 4G手机</span>
 
                             <div class="f-prom clearfix">
                                 <div class="l">
-                                    <img class="fc" src="misc/华为/images/1.png" alt=""/>
+                                    <img class="fc" src="misc/huawei/images/1.png" alt=""/>
                                     <div class="info clearfix">
                                         <div class="txt">
                                             <span class="h3">华为 H60-tL01 荣耀6 移动版8核4G手机
@@ -476,7 +497,7 @@ SM-N9150 4G手机</span>
                                             <span class="h2">活动价: 1799</span>
                                         </div>
                                         <div class="btn">
-                                            <a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046453
+                                            <a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046453
 "><img src="misc/buy-now-btn.png" alt=""/></a>
                                         </div>
                                     </div>
@@ -488,19 +509,19 @@ SM-N9150 4G手机</span>
                                     <div class="p-items ">
                                         <ul class="clearfix">
                                             <li class="pd-item">
-                                                <img src="misc/华为/images/2.png" alt=""/>
+                                                <img src="misc/huawei/images/2.png" alt=""/>
                                                 <div class="info clearfix">
                                                     <span class="h3">华为 荣耀6 H60-L02 联通版
 8核4G手机 双卡双待 赠延保一年</span>
                                                     <span class="h2">活动价: 1745</span>
                                                     <span class="h3 old-p">原价: 1999</span>
                                                 </div>
-                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046451
+                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046451
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
 
                                             </li>
                                             <li class="pd-item">
-                                                <img src="misc/华为/images/3.png" alt=""/>
+                                                <img src="misc/huawei/images/3.png" alt=""/>
                                                 <div class="info clearfix">
                                                     <span class="h3">华为Ascend Mate7 高配版 移动/联通4G
 智能手机（琥珀金）
@@ -508,31 +529,31 @@ TD-LTE/TD-SCDMA/WCDMA/GSM</span>
                                                     <span class="h2">活动价: 4348</span>
                                                     <span class="h3 old-p">原价: 4958</span>
                                                 </div>
-                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046542
+                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046542
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
 
                                             </li>
                                             <li class="pd-item">
-                                                <img src="misc/华为/images/4.png" alt=""/>
+                                                <img src="misc/huawei/images/4.png" alt=""/>
                                                 <div class="info clearfix">
                                                     <span class="h3">华为 Mate7 高配版 赠蓝牙耳机
 移动联通双4G 32g 金色</span>
                                                     <span class="h2">活动价: 4356</span>
                                                     <span class="h3 old-p">原价: 4958</span>
                                                 </div>
-                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046544
+                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046544
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
 
                                             </li>
                                             <li class="pd-item">
-                                                <img src="misc/华为/images/5.png" alt=""/>
+                                                <img src="misc/huawei/images/5.png" alt=""/>
                                                 <div class="info clearfix">
                                                     <span class="h3">华为 Mate7-TL00 移动4G手机
 双卡双待双通 6英寸 八核 赠延保一年</span>
                                                     <span class="h2">活动价: 3199</span>
                                                     <span class="h3 old-p">原价: 3499</span>
                                                 </div>
-                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046446
+                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046446
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
 
                                             </li>
@@ -544,31 +565,31 @@ TD-LTE/TD-SCDMA/WCDMA/GSM</span>
                             <div class="products-items">
                                 <ul class="clearfix">
                                     <li class="pd-item">
-                                        <img src="misc/华为/images/6.png" alt=""/>
+                                        <img src="misc/huawei/images/6.png" alt=""/>
                                         <div class="info clearfix">
                                                     <span class="h3">华为 P7-L09 电信4G双模手机
 赠精品移动电源 双模双待双通</span>
                                             <span class="h2">活动价: 2088</span>
                                             <span class="h3 old-p">原价: 2628</span>
                                         </div>
-                                        <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046548
+                                        <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046548
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
 
                                     </li>
                                     <li class="pd-item">
-                                        <img src="misc/华为/images/7.png" alt=""/>
+                                        <img src="misc/huawei/images/7.png" alt=""/>
                                         <div class="info clearfix">
                                                     <span class="h3">华为P7-L05/L07 移动4G手机
 赠精品移动电源</span>
                                             <span class="h2">活动价: 2150</span>
                                             <span class="h3 old-p">原价: 2399</span>
                                         </div>
-                                        <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046385
+                                        <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046385
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
 
                                     </li>
                                     <li class="pd-item">
-                                        <img src="misc/华为/images/8.png" alt=""/>
+                                        <img src="misc/huawei/images/8.png" alt=""/>
                                         <div class="info clearfix">
                                             <span class="h3">华为 荣耀 畅玩4X 电信版（白色）
 4G手机FDD-LTE/TDD-LTE/
@@ -576,12 +597,12 @@ CDMA2000/GSM 双卡双待</span>
                                             <span class="h2">活动价: 1268</span>
                                             <span class="h3 old-p">原价: 1438</span>
                                         </div>
-                                        <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046545
+                                        <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046545
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
 
                                     </li>
                                     <li class="pd-item">
-                                        <img src="misc/华为/images/9.png" alt=""/>
+                                        <img src="misc/huawei/images/9.png" alt=""/>
                                         <div class="info clearfix">
                                             <span class="h3">
 华为 Ascend G7 月光银 移动4G手机
@@ -589,7 +610,7 @@ CDMA2000/GSM 双卡双待</span>
                                             <span class="h2">活动价: 1799</span>
                                             <span class="h3 old-p">原价: 1999</span>
                                         </div>
-                                        <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046439
+                                        <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046439
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
 
                                     </li>
@@ -598,7 +619,7 @@ CDMA2000/GSM 双卡双待</span>
                                             <div class="table">
                                                 <div class="table-row">
                                                     <div class="table-cell">
-                                                        <img src="misc/华为/images/10.png" alt=""/>
+                                                        <img src="misc/huawei/images/10.png" alt=""/>
                                                     </div>
                                                 </div>
                                             </div>
@@ -613,7 +634,7 @@ CDMA2000/GSM 双卡双待</span>
                                                             <span class="h2">活动价: 1799</span>
                                                             <span class="h3 old-p">原价: 1999</span>
                                                         </div>
-                                                        <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046441
+                                                        <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046441
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
 
                                                     </div>
@@ -626,7 +647,7 @@ CDMA2000/GSM 双卡双待</span>
                                             <div class="table">
                                                 <div class="table-row">
                                                     <div class="table-cell">
-                                                        <img src="misc/华为/images/11.png" alt=""/>
+                                                        <img src="misc/huawei/images/11.png" alt=""/>
                                                     </div>
                                                 </div>
                                             </div>
@@ -641,7 +662,7 @@ CDMA2000/GSM 双卡双待</span>
                                                             <span class="h2">活动价: 1799</span>
                                                             <span class="h3 old-p">原价: 1999</span>
                                                         </div>
-                                                        <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046453
+                                                        <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046453
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
 
                                                     </div>
@@ -662,10 +683,10 @@ CDMA2000/GSM 双卡双待</span>
                 </div>
             </div>
 
-            <!-- 魅族 -->
+            <!-- meizu -->
             <div class="block block-apple block-brand-tpl">
                 <div class="bt">
-                    <img class="fc" src="misc/banner/魅族banner.jpg" alt=""/>
+                    <img class="fc" src="misc/banner/meizu_banner.png" alt=""/>
                 </div>
                 <div class="bc">
                     <div class="bc-wp">
@@ -673,7 +694,7 @@ CDMA2000/GSM 双卡双待</span>
 
                             <div class="f-prom clearfix">
                                 <div class="l">
-                                    <img class="fc" src="misc/魅族/images/1.png" alt=""/>
+                                    <img class="fc" src="misc/meizu/images/1.png" alt=""/>
                                     <div class="info clearfix">
                                         <div class="txt">
                                             <span class="h3">魅族4 MX4 Pro 移动4G手机
@@ -682,7 +703,7 @@ CDMA2000/GSM 双卡双待</span>
                                             <span class="h2">活动价: 2499</span>
                                         </div>
                                         <div class="btn">
-                                            <a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046429
+                                            <a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046429
 "><img src="misc/buy-now-btn.png" alt=""/></a>
                                         </div>
                                     </div>
@@ -694,50 +715,50 @@ CDMA2000/GSM 双卡双待</span>
                                     <div class="p-items ">
                                         <ul class="clearfix">
                                             <li class="pd-item">
-                                                <img src="misc/魅族/images/2.png" alt=""/>
+                                                <img src="misc/meizu/images/2.png" alt=""/>
                                                 <div class="info clearfix">
                                                     <span class="h3">魅族4 MX4 Pro 双4G手机 16G版
 八核 5.5英寸 赠延保一年</span>
                                                     <span class="h2">活动价: 2180</span>
                                                     <span class="h3 old-p">原价: 2450</span>
                                                 </div>
-                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046431
+                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046431
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
 
                                             </li>
                                             <li class="pd-item">
-                                                <img src="misc/魅族/images/3.png" alt=""/>
+                                                <img src="misc/meizu/images/3.png" alt=""/>
                                                 <div class="info clearfix">
                                                     <span class="h3">魅族 MX4 Pro 32G 联通移动双4G手机
 5.5英寸 3G缓存 八核 赠延保一年</span>
                                                     <span class="h2">活动价: 2499</span>
                                                     <span class="h3 old-p">原价: 2955</span>
                                                 </div>
-                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046450
+                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046450
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
 
                                             </li>
                                             <li class="pd-item">
-                                                <img src="misc/魅族/images/2.png" alt=""/>
+                                                <img src="misc/meizu/images/2.png" alt=""/>
                                                 <div class="info clearfix">
                                                     <span class="h3">魅族4 MX4 联通版双4G手机 16G版
 八核 5.36英寸 赠延保一年</span>
                                                     <span class="h2">活动价: 1899</span>
                                                     <span class="h3 old-p">原价: 2088</span>
                                                 </div>
-                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046443
+                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046443
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
 
                                             </li>
                                             <li class="pd-item">
-                                                <img src="misc/魅族/images/5.png" alt=""/>
+                                                <img src="misc/meizu/images/5.png" alt=""/>
                                                 <div class="info clearfix">
                                                     <span class="h3">魅族4 MX4 移动4G手机 16G版
 八核 5.36英寸 2070万像素 赠延保一年</span>
                                                     <span class="h2">活动价: 1830</span>
                                                     <span class="h3 old-p">原价: 1999</span>
                                                 </div>
-                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046448
+                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046448
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
 
                                             </li>
@@ -753,7 +774,7 @@ CDMA2000/GSM 双卡双待</span>
                                             <div class="table">
                                                 <div class="table-row">
                                                     <div class="table-cell">
-                                                        <img src="misc/魅族/images/6.png" alt=""/>
+                                                        <img src="misc/meizu/images/6.png" alt=""/>
                                                     </div>
                                                 </div>
                                             </div>
@@ -768,7 +789,7 @@ CDMA2000/GSM 双卡双待</span>
                                                             <span class="h2">活动价: 2020</span>
                                                             <span class="h3 old-p">原价: 2199</span>
                                                         </div>
-                                                        <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046450
+                                                        <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046450
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
 
                                                     </div>
@@ -781,7 +802,7 @@ CDMA2000/GSM 双卡双待</span>
                                             <div class="table">
                                                 <div class="table-row">
                                                     <div class="table-cell">
-                                                        <img src="misc/魅族/images/7.png" alt=""/>
+                                                        <img src="misc/meizu/images/7.png" alt=""/>
                                                     </div>
                                                 </div>
                                             </div>
@@ -796,7 +817,7 @@ CDMA2000/GSM 双卡双待</span>
                                                             <span class="h2">活动价: 2021</span>
                                                             <span class="h3 old-p">原价: 2199</span>
                                                         </div>
-                                                        <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046452
+                                                        <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046452
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
 
                                                     </div>
@@ -817,10 +838,10 @@ CDMA2000/GSM 双卡双待</span>
                 </div>
             </div>
 
-            <!-- 小米-->
+            <!-- xiaomi-->
             <div class="block block-apple block-brand-tpl">
                 <div class="bt">
-                    <img class="fc" src="misc/banner/小米banner.jpg" alt=""/>
+                    <img class="fc" src="misc/banner/xiaomi_banner.png" alt=""/>
                 </div>
                 <div class="bc">
                     <div class="bc-wp">
@@ -828,7 +849,7 @@ CDMA2000/GSM 双卡双待</span>
 
                             <div class="f-prom clearfix">
                                 <div class="l">
-                                    <img class="fc" src="misc/小米/images/1.png" alt=""/>
+                                    <img class="fc" src="misc/xiaomi/images/1.png" alt=""/>
                                     <div class="info clearfix">
                                         <div class="txt">
                                             <span class="h3">小米 小米手机4 小米4移动4G手机
@@ -837,7 +858,7 @@ CDMA2000/GSM 双卡双待</span>
                                             <span class="h2">活动价: 1899</span>
                                         </div>
                                         <div class="btn">
-                                            <a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046445
+                                            <a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046445
 "><img src="misc/buy-now-btn.png" alt=""/></a>
                                         </div>
                                     </div>
@@ -852,7 +873,7 @@ CDMA2000/GSM 双卡双待</span>
                                                 <div class="left">
                                                     <div class="table table-row">
                                                         <div class="table-cell">
-                                                            <img src="misc/小米/images/2.png" alt=""/>
+                                                            <img src="misc/xiaomi/images/2.png" alt=""/>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -866,7 +887,7 @@ CDMA2000/GSM 双卡双待</span>
                                                                     <span class="h2">活动价: 2099</span>
                                                                     <span class="h3 old-p">原价: 2104</span>
                                                                 </div>
-                                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046447
+                                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046447
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
 
                                                             </div>
@@ -879,7 +900,7 @@ CDMA2000/GSM 双卡双待</span>
                                                     <div class="table">
                                                         <div class="table-row">
                                                             <div class="table">
-                                                                <img style="margin-right: -19px;" src="misc/小米/images/3.png" alt=""/>
+                                                                <img style="margin-right: -19px;" src="misc/xiaomi/images/3.png" alt=""/>
 
                                                             </div>
                                                         </div>
@@ -895,7 +916,7 @@ CDMA2000/GSM 双卡双待</span>
                                                                     <span class="h2">活动价: 940</span>
                                                                     <span class="h3 old-p">原价: 850</span>
                                                                 </div>
-                                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046442
+                                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046442
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
 
                                                             </div>
@@ -919,10 +940,10 @@ CDMA2000/GSM 双卡双待</span>
             </div>
 
 
-            <!--其他 -->
+            <!--qita -->
             <div class="block block-apple block-other-ps block-brand-tpl">
                 <div class="bt">
-                    <img class="fc" src="misc/banner/其他banner.jpg" alt=""/>
+                    <img class="fc" src="misc/banner/qita_banner.png" alt=""/>
                 </div>
                 <div class="bc">
                     <div class="bc-wp">
@@ -930,7 +951,7 @@ CDMA2000/GSM 双卡双待</span>
 
                             <div class="f-prom clearfix">
                                 <div class="l">
-                                    <img class="fc" src="misc/其他/images/1.png" alt=""/>
+                                    <img class="fc" src="misc/qita/images/1.png" alt=""/>
                                     <div class="info clearfix">
                                         <div class="txt">
                                             <span class="h3">东芝（TOSHIBA）
@@ -940,7 +961,7 @@ CDMA2000/GSM 双卡双待</span>
                                             <span class="h2">活动价: 85</span>
                                         </div>
                                         <div class="btn">
-                                            <a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046559
+                                            <a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046559
 "><img src="misc/buy-now-btn.png" alt=""/></a>
                                         </div>
                                     </div>
@@ -952,49 +973,49 @@ CDMA2000/GSM 双卡双待</span>
                                     <div class="p-items ">
                                         <ul class="clearfix">
                                             <li class="pd-item">
-                                                <img src="misc/其他/images/2.png" alt=""/>
+                                                <img src="misc/qita/images/2.png" alt=""/>
                                                 <div class="info clearfix">
                                                     <span class="h3">金士顿（Kingston）
 16G Class10  TF(Micro SD)存储卡</span>
                                                     <span class="h2">活动价: 42</span>
                                                     <span class="h3 old-p">原价: 89</span>
                                                 </div>
-                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046462
+                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046462
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
 
                                             </li>
                                             <li class="pd-item">
-                                                <img src="misc/其他/images/3.png" alt=""/>
+                                                <img src="misc/qita/images/3.png" alt=""/>
                                                 <div class="info clearfix">
                                                     <span class="h3">金士顿（Kingston） DTIG4 16GB
 USB 3.0 U盘</span>
                                                     <span class="h2">活动价: 48</span>
                                                     <span class="h3 old-p">原价: 68</span>
                                                 </div>
-                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046463
+                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046463
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
 
                                             </li>
                                             <li class="pd-item">
-                                                <img src="misc/其他/images/4.png" alt=""/>
+                                                <img src="misc/qita/images/4.png" alt=""/>
                                                 <div class="info clearfix">
                                                     <span class="h3">伟易达Vtech 1047
 数字无绳电话机</span>
                                                     <span class="h2">活动价: 99</span>
                                                     <span class="h3 old-p">原价: 129</span>
                                                 </div>
-                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046365
+                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046365
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
 
                                             </li>
                                             <li class="pd-item">
-                                                <img src="misc/其他/images/5.png" alt=""/>
+                                                <img src="misc/qita/images/5.png" alt=""/>
                                                 <div class="info clearfix">
                                                     <span class="h3">雷柏M120 有线系列鼠标</span>
                                                     <span class="h2">活动价: 28</span>
                                                     <span class="h3 old-p">原价: 35</span>
                                                 </div>
-                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046399
+                                                <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046399
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
 
                                             </li>
@@ -1010,7 +1031,7 @@ USB 3.0 U盘</span>
                                             <div class="table">
                                                 <div class="table-row">
                                                     <div class="table-cell">
-                                                        <img src="misc/其他/images/6.png" alt=""/>
+                                                        <img src="misc/qita/images/6.png" alt=""/>
 
                                                     </div>
                                                 </div>
@@ -1026,7 +1047,7 @@ USB 3.0 U盘</span>
                                                             <span class="h2">活动价: 99</span>
                                                             <span class="h3 old-p">原价: 109</span>
                                                         </div>
-                                                        <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046402
+                                                        <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046402
 "><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
 
                                                     </div>
@@ -1039,7 +1060,7 @@ USB 3.0 U盘</span>
                                             <div class="table">
                                                 <div class="table-row">
                                                     <div class="table-cell">
-                                                        <img src="misc/其他/images/7.png" alt=""/>
+                                                        <img src="misc/qita/images/7.png" alt=""/>
 
                                                     </div>
                                                 </div>
@@ -1054,7 +1075,7 @@ USB 3.0 U盘</span>
                                                             <span class="h2">活动价: 62</span>
                                                             <span class="h3 old-p">原价: 65</span>
                                                         </div>
-                                                        <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail1.html?prodId=10046566"><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
+                                                        <div class="btn btn-buy"><a href="http://club.bankcomm.com/customer/productinfo/productItemDetail0.html?prodId=10046566"><img class="fc" src="misc/buy-now-btn.png" alt=""/></a></div>
 
                                                     </div>
                                                 </div>
@@ -1073,7 +1094,6 @@ USB 3.0 U盘</span>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 
@@ -1081,7 +1101,7 @@ USB 3.0 U盘</span>
         <div class="w">
             <div class="block">
                 <div class="bh">
-                    <img src="misc/h-join-cmr.jpg"  class="fc" alt=""/>
+                    <a href="submeeting.html"><img src="misc/h-join-cmr.png"  class="fc" alt=""/></a>
                 </div>
                 <div class="bc">
                     <table>
@@ -1306,7 +1326,7 @@ USB 3.0 U盘</span>
 
 <div class="s s-footer">
     <div class="w">
-        <iframe src="header/pc/footer.html" frameborder="0"></iframe>
+        <iframe src="statics/header/pc/footer.html" frameborder="0"></iframe>
     </div>
 </div>
 </body>
